@@ -1,10 +1,10 @@
 package sk.stuba.fei.uim.oop.kontakty;
 
 public class Kontakt {
-    private String meno;
-    private String priezvisko;
+    protected String meno;
+    protected String priezvisko;
 
-    private Kontakt[] znamy;
+    protected Kontakt[] znamy;
 
     public Kontakt(String meno, String priezvisko) {
         this.meno = meno;
@@ -34,5 +34,10 @@ public class Kontakt {
 
     public void setMeno(String meno) {
         this.meno = meno;
+    }
+
+    @Override
+    public String toString() {
+        return this.meno + " " + this.priezvisko;
     }
 }
