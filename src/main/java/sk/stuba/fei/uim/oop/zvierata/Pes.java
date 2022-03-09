@@ -3,7 +3,7 @@ package sk.stuba.fei.uim.oop.zvierata;
 public class Pes extends Zviera implements Plavanie {
 
     public Pes(String meno) {
-        this.meno = meno;
+        super(meno);
     }
 
     @Override
