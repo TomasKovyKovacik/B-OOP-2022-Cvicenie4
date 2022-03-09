@@ -1,7 +1,7 @@
 package sk.stuba.fei.uim.oop;
 
-import sk.stuba.fei.uim.oop.Zvierata.Macka;
-import sk.stuba.fei.uim.oop.Zvierata.Pes;
+import sk.stuba.fei.uim.oop.zvierata.Macka;
+import sk.stuba.fei.uim.oop.zvierata.Pes;
 
 public class Main {
 

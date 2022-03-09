@@ -1,4 +1,4 @@
-package sk.stuba.fei.uim.oop.Zvierata;
+package sk.stuba.fei.uim.oop.zvierata;
 
 public abstract class Zviera implements Behanie {
     protected String meno;
